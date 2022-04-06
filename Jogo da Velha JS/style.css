@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+    margin-top: -5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 240px;
+    border: 3px solid black ;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    
+}
+
+.hashtag {
+    display: flex;
+    flex-flow: row wrap; /*Quebra de linha em formato de cubos*/
+}
+.campo {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin:2px 2px; /*Blocos separados*/
+    font-weight: 300;
+    padding-top: 10px; /*Para ajustar o achatamento vertical*/
+    border-radius: 3px;
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+}
